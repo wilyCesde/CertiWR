@@ -5,7 +5,7 @@ import { ListarRequisitosComponent } from './Components/Requisitos/listar-requis
 
 const routes: Routes = [
   {path:'NuevoRequisito',component:RequisitosComponent},
-  {path:'listarRequisito',component:ListarRequisitosComponent}
+  {path:'ListarNuevoRequisito',component:ListarRequisitosComponent}
 ];
 
 @NgModule({
