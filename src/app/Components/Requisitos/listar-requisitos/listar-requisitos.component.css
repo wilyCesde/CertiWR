@@ -1,0 +1,60 @@
+/* -------------------------- */
+
+h1 {
+  text-align: center;
+  color: #ee2b7b;
+  font-size: 20px;
+}
+h5 {
+  color: #ee2b7b;
+}
+
+th {
+  color: #f8f9f9;
+  background: #ee2b7b;
+}
+.hr {
+  border: 1px solid rgb(189, 187, 187);
+  background: rgb(189, 187, 187);
+}
+
+.btn-new-config {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.btn {
+  font-size: 0.9em;
+  width: 180px;
+  height: 30px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 0;
+}
+/* --------------------------tabla */
+
+.icono {
+  color: rgb(2, 157, 196);
+}
+/* --------------------------centar boton nuevo */
+@media screen and (max-width: 810px) {
+  .btn-new-config .btn {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  .subtitle {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    justify-content: center;
+  }
+}
+
+.paginator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}

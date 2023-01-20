@@ -1,0 +1,76 @@
+
+<div class="container">
+  <div class="btn-new-config mt-4 mb-3">
+    <div style="width: 10%"></div>
+    <h1 class="subtitle">
+      ADMINISTRACIÓN Y GESTIÓN DE REQUISITOS DE CERTIFICACIÓN
+    </h1>
+    <button type="button" class="btn btn-info">NUEVO REQUISITO</button>
+  </div>
+  <hr />
+
+  <div class="d-flex justify-content-end">
+    <div class="form-group mb-2">
+      <div class="input-group">
+        <input
+          type="text"
+          class="form-control"
+          style="border-radius: 25px; padding-left: 20px"
+          placeholder="Buscar"
+        />
+        <div
+          class="input-group-append position-absolute"
+          style="right: 0; left: 160px"
+        >
+          <i class="pi pi-search"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th scope="col" class="text-center">ID</th>
+        <th scope="col" class="text-center">
+          NOMBRE REQUISITOS DE CERTIFICACION
+        </th>
+        <th scope="col" class="text-center">
+          DESCRIPCION REQUISITOS DE CERTIFICACION
+        </th>
+        <th scope="col" class="text-center">OBLIGATORIO</th>
+        <th scope="col" class="text-center">ESTADO</th>
+        <th scope="col" class="text-center">ACCIONES</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="text-center">1</td>
+        <td class="text-center">Requisito 1</td>
+        <td class="text-center">Descripción del requisito 1</td>
+        <td class="text-center">Sí</td>
+        <td class="text-center">
+          <div class="d-flex justify-content-center">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="defaultCheck1"
+                checked
+              />
+            </div>
+          </div>
+        </td>
+        <td class="text-center icono">
+          <i class="fas fa-edit"></i>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <p-paginator
+    [rows]="10"
+    [totalRecords]="120"
+    [rowsPerPageOptions]="[10, 20, 30]"
+  ></p-paginator>
+</div>
