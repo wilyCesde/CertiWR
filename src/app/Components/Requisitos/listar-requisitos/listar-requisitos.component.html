@@ -27,27 +27,27 @@
     </div>
   </div>
 
-  <table class="table table-bordered">
-    <thead>
+  <p-table  [value]="requirements" [paginator]="true" [rows]="10" [responsive]="true" class="text-center ">
+    <ng-template pTemplate="header" >
       <tr>
-        <th scope="col" class="text-center">ID</th>
-        <th scope="col" class="text-center">
+        <th class="text-center">ID</th>
+        <th  class="text-center">
           NOMBRE REQUISITOS DE CERTIFICACION
         </th>
-        <th scope="col" class="text-center">
+        <th  class="text-center">
           DESCRIPCION REQUISITOS DE CERTIFICACION
         </th>
-        <th scope="col" class="text-center">OBLIGATORIO</th>
-        <th scope="col" class="text-center">ESTADO</th>
-        <th scope="col" class="text-center">ACCIONES</th>
+        <th class="text-center">OBLIGATORIO</th>
+        <th class="text-center">ESTADO</th>
+        <th  class="text-center">ACCIONES</th>
       </tr>
-    </thead>
-    <tbody>
+    </ng-template>
+    <ng-template pTemplate="body" let-data>
       <tr>
-        <td class="text-center">1</td>
-        <td class="text-center">Requisito 1</td>
-        <td class="text-center">Descripción del requisito 1</td>
-        <td class="text-center">Sí</td>
+        <td class="text-center">{{ data.id }}</td>
+        <td class="text-center">{{ data.name }}</td>
+        <td class="text-center">{{ data.description }}</td>
+        <td class="text-center">{{ data.mandatory ? 'Sí' : 'No' }}</td>
         <td class="text-center">
           <div class="d-flex justify-content-center">
             <div class="form-check">
@@ -65,11 +65,7 @@
           <i class="pi pi-pencil"></i>
         </td>
       </tr>
-    </tbody>
-  </table>
-  <p-paginator
-    [rows]="10"
-    [totalRecords]="120"
-    [rowsPerPageOptions]="[10, 20, 30]"
-  ></p-paginator>
+    </ng-template>
+  </p-table>
+
 </div>

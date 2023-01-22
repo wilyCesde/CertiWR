@@ -1,0 +1,42 @@
+/* -------------------------- */
+
+h1 {
+  text-align: center;
+  color: #ee2b7b;
+  font-size: 20px;
+}
+h6 {
+  color: #ee2b7b;
+}
+
+th {
+  color: #f8f9f9;
+  background: #ee2b7b;
+
+}
+.hr {
+  border: 1px solid rgb(189, 187, 187);
+  background: rgb(189, 187, 187);
+}
+
+
+.icono {
+  color: rgb(2, 157, 196);
+}
+.btn{
+  background:rgb(2, 157, 196) ;
+  border: none;
+}
+.form-group{
+  color: #ee2b7b;
+
+}
+.pi-search{
+  color: rgb(2, 157, 196);
+}
+.col-6{
+  width: 250px;
+}
+p-table td {
+  border: 1px solid rgb(189, 187, 187) ;
+}

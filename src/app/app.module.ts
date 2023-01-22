@@ -13,11 +13,13 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 
 import {PaginatorModule} from 'primeng/paginator';
+import { RegistroVentanillaComponent } from './Components/registro-ventanilla/registro-ventanilla.component';
 @NgModule({
   declarations: [
     AppComponent,
     ListarRequisitosComponent,
-    RequisitosComponent
+    RequisitosComponent,
+    RegistroVentanillaComponent
   ],
   imports: [
     BrowserModule,
