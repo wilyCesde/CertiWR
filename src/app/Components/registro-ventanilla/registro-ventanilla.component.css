@@ -12,12 +12,14 @@ h6 {
 th {
   color: #f8f9f9;
   background: #ee2b7b;
+  border: 1px solid rgba(170, 168, 168, 0.616);
+}
 
-}
 .hr {
-  border: 1px solid rgb(189, 187, 187);
-  background: rgb(189, 187, 187);
+  border: 1px solid rgba(170, 168, 168, 0.616);
+  background:rgba(170, 168, 168, 0.616);
 }
+
 
 
 .icono {
@@ -26,6 +28,7 @@ th {
 .btn{
   background:rgb(2, 157, 196) ;
   border: none;
+  margin-bottom: 30px;
 }
 .form-group{
   color: #ee2b7b;
@@ -38,5 +41,6 @@ th {
   width: 250px;
 }
 p-table td {
-  border: 1px solid rgb(189, 187, 187) ;
+  border: 1px solid rgba(170, 168, 168, 0.616) ;
+  font-size: 14px;
 }
