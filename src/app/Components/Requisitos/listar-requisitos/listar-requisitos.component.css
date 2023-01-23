@@ -5,18 +5,21 @@ h1 {
   color: #ee2b7b;
   font-size: 20px;
 }
-h5 {
+h6 {
   color: #ee2b7b;
 }
 
 th {
   color: #f8f9f9;
   background: #ee2b7b;
+  border: 1px solid rgba(170, 168, 168, 0.616);
 }
+
 .hr {
-  border: 1px solid rgb(189, 187, 187);
-  background: rgb(189, 187, 187);
+  border: 1px solid rgba(170, 168, 168, 0.616);
+  background:rgba(170, 168, 168, 0.616);
 }
+
 
 .btn-new-config {
   display: flex;
@@ -60,4 +63,7 @@ th {
 }
 p-table td {
   border: 1px solid rgb(189, 187, 187) ;
+}
+.tabla{
+  background: rgba(247, 242, 242, 0.616);
 }

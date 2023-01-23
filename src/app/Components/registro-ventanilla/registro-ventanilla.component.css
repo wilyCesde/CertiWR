@@ -44,3 +44,6 @@ p-table td {
   border: 1px solid rgba(170, 168, 168, 0.616) ;
   font-size: 14px;
 }
+.tabla{
+  background: rgba(247, 242, 242, 0.616);
+}
